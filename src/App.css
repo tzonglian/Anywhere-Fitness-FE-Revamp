@@ -1,3 +1,6 @@
+* {
+  font-family: "Ubuntu", san-serif;
+}
 .App {
   text-align: center;
 }
@@ -14,7 +17,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #3c3d3e;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,11 +31,19 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+.txt-white {
+  color: #f6f6f6;
+}
+
+.txt-red {
+  color: #ca1f3d;
+}
+
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
